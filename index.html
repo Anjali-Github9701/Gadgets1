@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ElectroGadgets Hub</title>
+
+<!-- ===================== CSS INCLUDED HERE ===================== -->
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0d1117;
+        color: #e6edf3;
+    }
+    header {
+        background: #111827;
+        padding: 30px;
+        text-align: center;
+        color: #60a5fa;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    header img {
+        width: 45px;
+        height: 45px;
+    }
+    .container {
+        max-width: 1100px;
+        margin: 30px auto;
+        padding: 20px;
+    }
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+        border-left: 6px solid #60a5fa;
+        padding-left: 12px;
+        font-weight: bold;
+    }
+    .card {
+        background: #161b22;
+        padding: 25px;
+        border-radius: 14px;
+        box-shadow: 0 3px 12px rgba(0,0,0,0.4);
+        margin-bottom: 30px;
+    }
+    .links {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+    }
+    a.button {
+        display: inline-block;
+        padding: 14px;
+        background: linear-gradient(90deg, #3b82f6, #2563eb);
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    a.button:hover {
+        background: linear-gradient(90deg, #1d4ed8, #1e40af);
+        transform: scale(1.05);
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" alt="logo">
+    ElectroGadgets Hub
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <div class="section-title">Trending Gadgets</div>
+        <div class="links">
+            <a class="button" href="https://amzn.to/4rbelun">Smartphones</a>
+            <a class="button" href="https://amzn.to/4a6ce4N">Earbuds</a>
+            <a class="button" href="https://amzn.to/3LKky0d">Smartwatches</a>
+            <a class="button" href="https://amzn.to/4plNGcv">Power Banks</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="section-title">Cameras</div>
+        <div class="links">
+            <a class="button" href="https://amzn.to/47VNoDr">DSLR Cameras</a>
+            <a class="button" href="https://amzn.to/4oPWur9">Action Cameras</a>
+            <a class="button" href="https://amzn.to/4o8Eo2m">Camera Accessories</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="section-title">Headphones</div>
+        <div class="links">
+            <a class="button" href="https://amzn.to/3XICzOW">Over-Ear Headphones</a>
+            <a class="button" href="https://amzn.to/3X6MBJF">Bluetooth Neckbands</a>
+            <a class="button" href="https://amzn.to/3JXFUqh">Gaming Headsets</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="section-title">Laptops & Accessories</div>
+        <div class="links">
+            <a class="button" href="https://amzn.to/48bW47w">Laptops</a>
+            <a class="button" href="https://amzn.to/3LTfx5l">Monitors</a>
+            <a class="button" href="https://amzn.to/4piN3QU">External SSD</a>
+            <a class="button" href="https://amzn.to/4oWIPPc">Keyboards & Mice</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="section-title">Smart Home</div>
+        <div class="links">
+            <a class="button" href="https://amzn.to/4pqarvX">Smart Lights</a>
+            <a class="button" href="https://amzn.to/484KPgZ">Home Security Cameras</a>
+            <a class="button" href="https://amzn.to/4p4EKZ6">Smart Speakers</a>
+        </div>
+    </div>
+
+</div>
+
+<!-- ===================== JS INCLUDED HERE ===================== -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("ElectroGadgets Hub Loaded Successfully");
+});
+</script>
+
+</body>
+</html>
